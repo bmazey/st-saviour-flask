@@ -12,7 +12,7 @@ def serve_text():
 # a handler that returns an html file with an image!
 @app.route("/image")
 def serve_image():
-    return(render_template('image.html'))
+    return render_template('image.html')
 
 # start the application
 if __name__ == '__main__':
